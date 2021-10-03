@@ -1,0 +1,55 @@
+---
+- assignee: person1
+  dependencies: []
+  description: This is an important task
+  end: 2021-10-25 00:00:00
+  estimate: 1
+  id: 1
+  priority: 1
+  start: 2021-10-03 00:00:00
+  status: done
+  title: Task1
+- assignee: person1
+  dependencies:
+  - '1'
+  description: This is also important
+  end: 2021-11-02 00:00:00
+  estimate: 1
+  id: 2
+  priority: 1
+  start: 2021-10-03 00:00:00
+  status: done
+  title: Task2
+- assignee: person2
+  dependencies:
+  - '1'
+  - '2'
+  description: "This can\u2019t be done until a couple other things are done"
+  end: 2021-11-15 00:00:00
+  estimate: 1
+  id: 3
+  priority: 1
+  start: 2021-10-03 00:00:00
+  status: todo
+  title: Task3
+- assignee: person3
+  dependencies:
+  - '3'
+  description: This is going to take a while
+  end: 2021-12-25 00:00:00
+  estimate: 1
+  id: 4
+  priority: 1
+  start: 2021-10-03 00:00:00
+  status: todo
+  title: Task4
+- assignee: person4
+  dependencies: []
+  description: Go for it!
+  end: 2021-10-25 00:00:00
+  estimate: 1
+  id: 5
+  priority: 1
+  start: 2021-10-03 00:00:00
+  status: todo
+  title: Task5

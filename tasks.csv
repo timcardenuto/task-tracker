@@ -1,0 +1,6 @@
+id,title,assignee,priority,estimate,start,end,dependencies,status,description
+1,Task1,person1,1,1,2021-10-03,2021-10-25,,done,This is an important task
+2,Task2,person1,1,1,2021-10-03,2021-11-02,1,done,This is also important
+3,Task3,person2,1,1,2021-10-03,2021-11-15,1;2,todo,This can’t be done until a couple other things are done
+4,Task4,person3,1,1,2021-10-03,2021-12-25,3,todo,This is going to take a while
+5,Task5,person4,1,1,2021-10-03,2021-10-25,,todo,Go for it!
